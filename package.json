@@ -1,0 +1,30 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is react learning course by aaditya",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/aaditwocode/React)"
+  },
+  "keywords": [
+    "reactlearn"
+  ],
+  "author": "aaditya pratap singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browsersList": [
+     "last 10 versions"
+  ]
+  
+}
+
