@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "this is react learning course by aaditya",
   "scripts": {
+    "start":"parcel 1.html",
+    "build":"parcel build 1.html",
     "test": "jest"
   },
   "repository": {

@@ -1,0 +1,37 @@
+EPISODE 1
+crossorigin way of cdn employ in html script
+react.createElement conatain type, id or class and content
+reactdom.createroot and render the create element
+
+EPISODE 2
+package-json configuretion of npm 
+package-lock json conatin exact dependencies 
+types of dependencies dev or normal parcel come under dev
+tilde major upgrades carot minor upgrades
+transitive dependencies occur when bundler like parcel most important dependencies is installed so parcel contain other dependencies it depend upon
+can delete node_modules can be genrated again just by npm install command
+npx parcel <filename> parcel ignites our app on an local server
+npm-> call command    npx ->to execte a package
+cdn links gives react bad way , npm fetch react is a good way
+install react do npm install react
+install reactDOM do npm install react-dom
+""""
+import React from "react";
+import ReactDOM from "react-dom/client";
+after install of react from npm  just do script type=module for function
+""""
+PARCEL -> hmr (hot mmodule replacemtn),build a local server,caching-faster builds,image-optimization,differential bundling->so app runs on older browesers
+npx parcel build <filename> remove main from package json
+dist contain producntion build and can be genrated from above command
+
+EPISODE3
+in scripts of package.json you can save for dev build "npm run start" and production build "npm run build" via keyowrds no need to write npx parcel 1.html just do hit above start one
+npm run start == npm start
+npm run build != npm build
+JSX is not html in react its html like syntax
+jsx is transpiled to make browser understand it is done by parcel(under babel dependency or package)
+jsx has root,classname not class
+attributes given in JSX in cameltab
+if to write in multiple line wrap inside () for JSX
+composing two component into one another->component composition
+in JSX {} inside this do any js work
