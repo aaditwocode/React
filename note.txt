@@ -41,3 +41,21 @@ dynamic cards-via props
 config driven UI-> that ui is driven by config acc to location for diff cities carousels are different data api is the config
 <RestaurantCard key={restaurant.id} resobj={restaurant} /> importance of key here is as when components of same level like diff restraunts need to be uniquely repesneted for rendering quickly 
 basically needed for diffrentiaiton from one another
+
+
+EPISODE5
+in one file only one default export 
+the other export (name export) import via {} use of this
+
+react hooks-(normal utitlty js function)
+1)use state()
+2)use effect()
+it quickly renders react ui component like used for filter 
+
+1. **Reconciliation Algorithm:** React compares the virtual DOM with the actual DOM and updates only the changed parts efficiently.  
+
+2. **Virtual DOM:** A lightweight representation of the actual DOM that helps optimize rendering performance.  
+
+3. **Diff Algorithm:** Identifies differences between the virtual and actual DOM to update only necessary elements, improving efficiency.  
+
+4. **React Fiber (React 16):** A reimplementation of React’s reconciliation algorithm that enables asynchronous rendering and prioritizes updates for smoother performance.
