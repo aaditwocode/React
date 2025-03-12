@@ -5,13 +5,13 @@ reactdom.createroot and render the create element
 
 EPISODE 2
 package-json configuretion of npm 
-package-lock json conatin exact dependencies 
+package-lock json contain exact dependencies 
 types of dependencies dev or normal parcel come under dev
-tilde major upgrades carot minor upgrades
+tilde major upgrades, carot minor upgrades
 transitive dependencies occur when bundler like parcel most important dependencies is installed so parcel contain other dependencies it depend upon
-can delete node_modules can be genrated again just by npm install command
+can delete node_modules can be generated again just by -(npm install)command
 npx parcel <filename> parcel ignites our app on an local server
-npm-> call command    npx ->to execte a package
+npm-> call command    npx ->to execute a package
 cdn links gives react bad way , npm fetch react is a good way
 install react do npm install react
 install reactDOM do npm install react-dom
@@ -20,12 +20,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 after install of react from npm  just do script type=module for function
 """"
-PARCEL -> hmr (hot mmodule replacemtn),build a local server,caching-faster builds,image-optimization,differential bundling->so app runs on older browesers
+PARCEL -> hmr (hot mmodule replacement),build a local server,caching-faster builds,image-optimization,differential bundling->so app runs on older browesers
 npx parcel build <filename> remove main from package json
-dist contain producntion build and can be genrated from above command
+dist contain production build and can be genrated from above command
 
 EPISODE3
-in scripts of package.json you can save for dev build "npm run start" and production build "npm run build" via keyowrds no need to write npx parcel 1.html just do hit above start one
+in scripts of package.json you can save for dev build "npm run start" and production build "npm run build" via keyeords no need to write npx parcel 1.html just do hit above start one
 npm run start == npm start
 npm run build != npm build
 JSX is not html in react its html like syntax
@@ -35,3 +35,9 @@ attributes given in JSX in cameltab
 if to write in multiple line wrap inside () for JSX
 composing two component into one another->component composition
 in JSX {} inside this do any js work
+
+EPISODE4
+dynamic cards-via props
+config driven UI-> that ui is driven by config acc to location for diff cities carousels are different data api is the config
+<RestaurantCard key={restaurant.id} resobj={restaurant} /> importance of key here is as when components of same level like diff restraunts need to be uniquely repesneted for rendering quickly 
+basically needed for diffrentiaiton from one another
